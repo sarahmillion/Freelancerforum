@@ -1,5 +1,5 @@
 const spanCount = document.querySelector('spanCount');
-const spanAverageCost = document.querySelector('#spanAverageRate');
+const spanAverageCost = document.querySelector('#spanAverageCost');
 const ul = document.querySelector('ul');
 
 const freelancers = [
@@ -22,7 +22,7 @@ const freelancers = [
   });
   
    const average = sum / freelancers.length;
-   spanAverageRate.innerHTML = average; 
+   spanAverageCost.innerHTML = average; 
   
    const html = freelancers.map ((freelancer)=> {
    return`
